@@ -62,10 +62,10 @@ const Navbar = () => {
             </IconButton>
             <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}>
               JUMIA
-              <span style={{ marginLeft: "6px" }} class="material-icons">
+              <span style={{ marginLeft: "6px" }} className="material-icons">
                 shopping_cart
               </span>{" "}
-              <span class="material-icons">filter_alt</span>
+              <span className="material-icons">filter_alt</span>
             </Typography>
             <Search>
               <SearchIconWrapper>
